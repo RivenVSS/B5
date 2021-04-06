@@ -6,6 +6,13 @@ package com.javacourse.stack;
  */
 public class LinkedStack<ItemTypeT> implements ExtremumStack<ItemTypeT> {
 
+	/**
+	 * Конструктор без аргументов должен создаавать валидный стек
+	 */
+	public LinkedStack(){
+
+	}
+
 	@Override
 	public void push(ItemTypeT item) {
 		// TODO: замените тело метода на полноценную реализацию
