@@ -6,7 +6,6 @@ public class App {
 	public static void main(String[] args) {
 		LinkedStack<Integer> stack = new LinkedStack<Integer>();
 		stack.push(1);
-		stack.push(2);
 		stack.push(3);
 		stack.push(10);
 		stack.push(0);
